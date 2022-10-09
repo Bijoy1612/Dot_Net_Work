@@ -1,0 +1,56 @@
+﻿body {
+    padding-top: 56px !important;
+}
+a{
+    text-decoration:none;
+}
+:root{
+    --primary:#08a4ba;
+    --secondary:#067d98;
+    --light:#fec095;
+    --white:#fff;
+    --dark:#000000;
+}
+.carousel-inner {
+    height: 450px !important;
+}
+img.card-img-top {
+    height: 250px !important;
+}
+
+a.navbar-brand img {
+    width: 150px;
+    height: 22px;
+}
+
+.topper {
+    background:#ff6a00;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20%;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+    .topper a {
+        font-size: 30px;
+        color: #fff;
+        padding: 9px;
+        line-height: -1px !important;
+    }
+
+    .navbar{
+        background-color:var(--primary) !important;
+    }
+
+#footer .bg-dark {
+    background-color: var(--secondary) !important;
+}
+#footer a{
+    color:var(--white) !important;
+}
+
+#blog .section_title{
+    color:var(--white);
+}
